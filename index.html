@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Explore Nature</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">🌿 ExploreNature</div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#places">Places</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">DISCOVER • EXPLORE • ENJOY</p>
+
+            <h1>Discover the Beauty of Nature</h1>
+
+            <p>
+                Explore beautiful places, peaceful mountains,
+                amazing waterfalls and wonderful landscapes.
+            </p>
+
+            <button onclick="showMessage()">Explore Now</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+
+        <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80"
+                 alt="Beautiful nature">
+        </div>
+
+        <div class="about-content">
+
+            <p class="section-title">ABOUT NATURE</p>
+
+            <h2>Nature is Our Best Escape</h2>
+
+            <p>
+                Nature gives us peace, fresh air and beautiful
+                experiences. Exploring natural places helps us
+                relax and enjoy the beauty around us.
+            </p>
+
+            <a href="https://www.nationalgeographic.com/environment"
+               target="_blank"
+               class="learn-more">
+                Learn More →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Places Section -->
+    <section id="places" class="places">
+
+        <p class="section-title">POPULAR DESTINATIONS</p>
+
+        <h2>Explore Amazing Places</h2>
+
+        <div class="cards">
+
+            <!-- Card 1 -->
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=700&q=80"
+                     alt="Mountain">
+
+                <div class="card-content">
+
+                    <h3>🏔️ Mountains</h3>
+
+                    <p>
+                        Enjoy peaceful mountains and beautiful
+                        landscapes surrounded by nature.
+                    </p>
+
+                    <button onclick="placeMessage('Mountains')">
+                        Explore
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 2 -->
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1432405972618-c60b0225b8f9?auto=format&fit=crop&w=700&q=80"
+                     alt="Waterfall">
+
+                <div class="card-content">
+
+                    <h3>💧 Waterfalls</h3>
+
+                    <p>
+                        Experience the relaxing sound of water
+                        and beautiful natural surroundings.
+                    </p>
+
+                    <button onclick="placeMessage('Waterfalls')">
+                        Explore
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Card 3 -->
+            <div class="card">
+
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=700&q=80"
+                     alt="Forest">
+
+                <div class="card-content">
+
+                    <h3>🌲 Forests</h3>
+
+                    <p>
+                        Walk through green forests and discover
+                        the peaceful side of nature.
+                    </p>
+
+                    <button onclick="placeMessage('Forests')">
+                        Explore
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Call To Action -->
+    <section class="cta">
+
+        <h2>Ready to Explore?</h2>
+
+        <p>
+            Start your journey and discover something beautiful today.
+        </p>
+
+        <button onclick="showMessage()">Start Exploring</button>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+
+        <p class="section-title">GET IN TOUCH</p>
+
+        <h2>Let's Connect</h2>
+
+        <p>
+            Have a question or want to share your favorite place?
+        </p>
+
+        <a href="mailto:example@gmail.com" class="email-button">
+            Contact Us
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 ExploreNature | Created using HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
